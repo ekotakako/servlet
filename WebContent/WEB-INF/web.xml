@@ -12,6 +12,16 @@
     <url-pattern>/HelloServlet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>EkoChallenge</servlet-name>
+    <servlet-class>jp.co.servlet.hello.EkoChallenge</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EkoChallenge</servlet-name>
+    <url-pattern>/EkoChallenge</url-pattern>
+  </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
